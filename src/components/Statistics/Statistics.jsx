@@ -1,16 +1,16 @@
-
+import style from "./Statistics.module.css"
 
 
 export const Statistics = ({data})=>{
   return (
-    <section >
-      <h2>Upload stats</h2>
-      <ul>{
+    <section className={style.section}>
+      <h2 className={style.title}>Upload stats</h2>
+      <ul className={style.list}>{
 				data.map((item)=>{
 					return (
-						<li key={item.id}>
-							<span>{item.label} </span>
-              <span>{item.percentage}%</span>
+						<li key={item.id} className={style.item}>
+							<span className={style.type}>{item.label} </span>
+              <span className={style.percent}>{item.percentage}%</span>
 						</li>
             
 					)
