@@ -14,3 +14,17 @@ box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
 font-family: Arial, Helvetica, sans-serif;
 font-size: 30px;
 }
+
+.online{
+  background-color: green;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.offline{
+  background-color: red;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
